@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCT-254-027/2021 Tracy Wanjiru Karanja</title>
+    <style>
+        
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+        
+
+        body{
+            text-align: center;
+            background-image: url(images/Wooden\ PNG\ Transparent\,\ Wooden\ Background\,\ Board\,\ Wooden\ Table\ PNG\ Image\ For\ Free\ Download.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: inline-block;
+            margin: 100px;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        h1{
+            align-items: center;
+            margin-left: 600px;
+            font-weight: bold;
+            font-size: 2.5em;
+        }
+        .form{
+            display: grid;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff, #d7e1ec);
+  border-radius: 10px;
+  margin-left: 300px;
+  padding: 2em 2em;
+        }
+        
+        label{
+            display: block;
+            font-size: 1.2em;
+            margin-bottom: .5em;
+        }
+            input,textarea{
+            width: 100%;
+            padding: .8em;
+            margin-bottom: 1em;
+            border-radius: .3em;
+            border: 1px solid gray;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"]{
+            background-color: blueviolet;
+            color: white;
+            font-weight: bold;
+            font-size: 1.3em;
+            border: none;
+            margin-bottom: 5em;
+            border-radius: 5em;
+            display: inline-block;
+            padding: .8em 2em;
+            width: unset;
+            cursor: pointer;
+        }
+        .button{
+            background: violet;
+        color: white;
+        text-decoration: none;
+        padding: .6em 1.3em;
+        font-size: 1.4em;
+        border-radius: 5em;
+        font-weight: bold;
+        }
+        .bath{
+            
+            bottom: -5em;
+            height: 200px;
+            width: 200px;
+            align-items: center;
+            margin-left: 630px;
+        }
+    </style>
+</head>
+<body>
+    <img class="bath" src="images/bath.png" alt="dog bath">
+    <h1 ><b><i>More About Us</i></b></h1>
+    <div class="form">
+    <form action="submit-form.php" method="POST">
+        <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </p>
+    <p>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+    </p>
+    <p> 
+        <label for="feedback">What do you like most about our kits:</label>
+        <textarea id="feedback" name="feedback"></textarea>
+    </p>
+
+    <p> 
+        <label for="problem">Do you have any issues:</label>
+        <textarea id="problem" name="problem"></textarea>
+    </p>
+
+    <p>   
+        <label for="feedback2">What would you like us to improve on:</label>
+        <textarea id="feedback2" name="feedback2"></textarea>
+    </p>
+    <p>  
+        <label for="recommend">Would you recommend it to others:</label>
+        <textarea id="message" name="recommend"></textarea>
+    </p>  
+        <button  class="button" type="submit">Submit Inquiry</button>
+      </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCT-254-027/2021 Tracy Wanjiru Karanja</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .reason{
+        text-align: center;
+        background-color: gray;
+        padding-top: 3em;    
+    }
+
+    .long-hair{
+        width: 200px;
+            height: 200px;
+            float: right;
+            background-image: url(images/Brandy.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            bottom: -5em;
+            border-radius: 10px;
+    }
+
+    .reason .long-hair{
+        justify-content: space-between;
+    }
+    .title{
+        font-size: 1.4em;
+}
+.kitten{
+    
+        width: 200px;
+            height: 200px;
+            float: right;
+            background-image: url(images/Brandy.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            bottom: -5em;
+            border-radius: 10px;
+    
+}
+    .kittens{
+        background-color: rgb(207, 192, 192);
+        padding-top: 3em;
+        text-align: centre;
+    }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">Animal<span><i>Luring</i></span></a>
+
+
+            <nav>
+            <img id="mobile-cta" class="mobile-menu" src="images/icons8-menu.gif" alt="Open Navigation">
+
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/icons8-x-coordinate-24.png" alt="navigation">
+                <ul class="primary-nav">
+                    
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Features</a></li>
+                    <li><a href="inquire.html">Inquiries</a></li>
+                    <li class="current"><a href="about.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">Its Nitty &amp; Gritty</p>
+                <h1>The Best Grooming Kit for your pets</h1>
+                
+
+                <img class="cat"  src="images/home.jpeg" class="hero-img" alt="illustration">
+            </div>
+        </div>
+
+        
+    </div>
+    </section>
+
+    <section>
+        <section class="features-section">
+            <div class="container">
+                <ul class="features-list">
+                    <li>~The best care for your pet</li>
+                    <li>~Animal friendly</li>
+                    <li>~Easy to use</li>
+                </ul>
+
+            </div>
+        </section>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <ul>
+                <li><img src="images/man1.jpeg" alt="person">
+                    <blockquote>Since I began using their products my dog has never looked better</blockquote>
+                    <cite>- Mark</cite>
+                </li>
+
+                <li><img src="images/woman.jpeg" alt="person">
+                    <blockquote>It really has made my life easier</blockquote>
+                    <cite>- Jane</cite>
+                </li>
+
+                <li><img src="images/man2.jpeg" alt="person">
+                    <blockquote>Very reliable, would recommend to others</blockquote>
+                    <cite>- Peter</cite>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+    <section class="reason">
+        <div>
+            <h1 class="title"><b><i>Why it&#39s important to groom your pet</i></b></h1>
+            <img class="long-hair" src="images/Brandy.jpg" alt="long-haired cat">
+            <p>
+                Grooming helps rid the coat of shed hair and dead skin while spreading natural oils. Grooming your pet is a great way to spend quality time with them and build a stronger bond. It allows you to show your pet affection and care, which can help to strengthen your relationship. It can  also help you to identify any health issues that your pet may have as well as improving your pet&#39s appearance.
+            </p>
+        </div>
+    </section>
+
+    <section class="kittens">
+        <div>
+            <h1 class="questions"><b><i>Is it okay to groom kittens and puppies?</i></b></h1>
+            <img class="kitten" src="images/Skyler.jpg" alt="kitten">
+            <p>
+                Grooming puppies and kittens is acceptable. In fact, it's crucial to begin grooming your pet early on so that they get used to the activity and come to like it. Brushing or combing their fur, cutting their nails, cleaning their ears, and bathing them are all examples of grooming.
+            </p>
+        </div>
+    </section>
+
+
+    <script>
+        const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', ()=>{
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', ()=>{
+            nav.classList.remove('menu-btn');
+        })
+    </script>
+</body>
+</html>
+    

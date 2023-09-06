@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>    
+    <title>SCT-254-027/2021 Tracy Wanjiru Karanja</title>
+    <style>
+      
+            body{
+            background-color: gray;
+            text-align: left;
+            margin: 0;
+            padding: 5em ;
+            
+        }
+        .contact-left{
+            background-color: white;
+            padding: 3em;
+            border-radius: 10px;
+        }
+        iframe{
+        width: 90%;
+        height: 300px;
+        border-radius: 5px;
+        
+    }
+        h2{
+    font-size: 2em;
+}
+    label{
+        display: block;
+        font-size: 1.2em;
+        margin-bottom: .5em;
+    }
+
+    input,textarea{
+        width: 100%;
+        padding: .8em;
+        margin-bottom: 1em;
+        border-radius: .3em;
+        border: 1px solid gray;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"]{
+        background-color: blueviolet;
+        color: white;
+        font-weight: bold;
+        font-size: 1.3em;
+        border: none;
+        margin-bottom: 5em;
+        border-radius: 5em;
+        display: inline-block;
+        padding: .8em 2em;
+        width: unset;
+        cursor: pointer;
+    }
+    
+    
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff, #d7e1ec);
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius:15px;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: black;
+}
+
+.wrapper .tiktok:hover,
+.wrapper .tiktok:hover .tooltip,
+.wrapper .tiktok:hover .tooltip::before {
+  background: #000000;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #7a21b6;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
+
+    </style>
+</head>
+<body>
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-left">
+            <h2>Contact Us</h2>
+                <p>
+                    Got a question? Contact Us
+                    support@cleandogs.com <br>
+                    Or call us 0722589611
+                    <ul class="wrapper">
+                        <li class="icon facebook">
+                          <span><i class="fab fa-facebook-f"></i></span>
+                        </li>
+                        <li class="icon youtube">
+                          <span><i class="fab fa-youtube"></i></span>
+                        </li>
+                        <li class="icon tiktok">
+                          <span><i class="fab fa-tiktok"></i></span>
+                        </li>
+                        <li class="icon instagram">
+                          <span><i class="fab fa-instagram"></i></span>
+                        </li>
+                      </ul>
+                </p>
+                <br>
+                <p>
+                    <h3>Get 10% off your next purchase</h3>
+                    <h6>and be the first to know  about new arrivals and special offers</h6>
+                </p>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="your name" maxlength="4" size="4">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" maxlength="5" size="5">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" maxlength="5" size="5"></textarea>
+
+                    <input type="submit" class="send-message-cta" value="send message">
+                </form>
+            
+        <br>
+        <div class="contact-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.657302778052!2d36.76847999999999!3d-1.3822640000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f059ba53cc253%3A0x84f65413371bebb!2sMulti%20Media%20University!5e0!3m2!1sen!2ske!4v1680037096407!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+</body>
+</html>
